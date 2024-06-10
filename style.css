@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    
+    background-image: url(guille-pozzi-SHcHVFhz7-M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+
+
+  .txt-field{
+    
+    border-bottom: 2px solid #49505752;
+    margin: 15px 0 20px;
+    
+  }
+
+  .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after{
+    
+    background-color: transparent ;
+   
+  }
+
+  .form-floating>.form-control:not(:placeholder-shown){
+    color: white;
+    padding-top: 43px;
+    padding-left: unset;
+  }
+
+  .form-floating>.form-control:focus~label{
+    color: #ffc107;
+  }
+
+  .form-floating>.form-control:not(:placeholder-shown)~label{
+
+    color: #16ffffe8;
+  }
+
+  .form-floating>label{
+
+    padding-left: revert;
+    padding-top: 25px;
+}
+
+  
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ 
+
+.image{
+    height: 20%;
+    width: 20%;
+ }
+
+h1{
+
+    text-align: center;
+    padding: 20px 0;
+  
+}
+
+
+
+
+  
+  
