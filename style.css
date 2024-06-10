@@ -36,12 +36,12 @@ body{
   }
 
   .form-floating>.form-control:focus~label{
-    color: #ffc107;
+    color: grey;
   }
 
   .form-floating>.form-control:not(:placeholder-shown)~label{
 
-    color: #16ffffe8;
+    color: #6d6d6de8;
   }
 
   .form-floating>label{
